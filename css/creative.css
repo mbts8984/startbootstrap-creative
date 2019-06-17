@@ -2615,14 +2615,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #550C18;
+  border-color: #550C18;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
+  background-color: #61304B;
+  border-color: #61304B;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -4390,7 +4390,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #f4623a;
+  background-color: #61304B;
 }
 
 .nav-fill .nav-item {
@@ -6916,7 +6916,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #61090A !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6986,7 +6986,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #275635 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -8548,7 +8548,12 @@ button.bg-dark:focus {
   margin-right: 1.5rem !important;
 }
 
-.mb-4,
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+  color: white;
+}
+
+
 .my-4 {
   margin-bottom: 1.5rem !important;
 }
@@ -10282,6 +10287,7 @@ button.bg-dark:focus {
 
 .text-center {
   text-align: center !important;
+  color: black;
 }
 
 @media (min-width: 576px) {
@@ -10373,7 +10379,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #f4623a !important;
+  color: #275635 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10574,7 +10580,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #f4623a;
+  border-color: #61090A;
 }
 
 hr.light {
@@ -10621,11 +10627,11 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #61090A;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #61090A !important;
 }
 
 @media (min-width: 992px) {
@@ -10659,13 +10665,13 @@ hr.light {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #f4623a;
+    color: #61304B;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-    color: #212529;
+    color: #61090A;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: #61304B;
   }
 }
 
