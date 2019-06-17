@@ -175,13 +175,13 @@ sup {
 }
 
 a {
-  color: #61090A;
+  color: #f4623a;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #61304B;
+  color: #d6370c;
   text-decoration: underline;
 }
 
@@ -519,8 +519,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: 300px;
-  display: cover;
+  height: auto;
 }
 
 .img-thumbnail {
